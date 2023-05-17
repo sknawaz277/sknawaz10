@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(rgb(16, 5, 113),rgb(0, 4, 5));
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    align-content:center;
+   padding: 10px;
+   row-gap: 200px;
+   column-gap:20px ;
+   height: 1000px;
+   text-align: center;
+ 
+}
+.grid-item{
+    background-color: aliceblue;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    height: 400px;
+    width: 500px;
+    margin-left: 100px;
+    border-radius: 10px;
+    color: black;
+
+}
+button{
+    background-color: black;
+    color: rgb(128, 118, 1);
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+butt
